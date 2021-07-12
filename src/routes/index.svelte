@@ -34,7 +34,7 @@
     </div>
 </div>
 <div id="contact" class="py-10 flex justify-center">
-    <form class="w-full max-w-lg" name="contact" netlify>
+    <form class="w-full max-w-lg" name="contact" data-netlify=true>
         <h1 class="text-6xl mb-5">Contact me</h1>
         <div class="flex flex-wrap -mx-3 mb-6">
             <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
