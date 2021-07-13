@@ -64,7 +64,13 @@
 	</div>
 </div>
 <div id="contact" class="py-10 flex justify-center">
-	<form action="POST" class="w-full max-w-lg" name="contact" data-netlify="true">
+	<form
+		method="POST"
+		class="w-full max-w-lg"
+		name="contact"
+		data-netlify="true"
+		data-netlify-recaptcha="true"
+	>
 		<h1 class="text-6xl mb-5">Contact me</h1>
 		<div class="flex flex-wrap -mx-3 mb-6">
 			<div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
