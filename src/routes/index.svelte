@@ -1,8 +1,4 @@
-<script context="module">
-	export const prerender = true;
-</script>
-
-<div id="hero" class="h-screen-5/6 flex items-center font-mono py-10">
+<div id="hero" class="min-h-screen-5/6 flex items-center font-mono py-10">
 	<div class="grid md:grid-cols-2 grid-cols-1 gap-1">
 		<div id="hero-content">
 			<h2 class="text-4xl mb-2">Welcome, I am</h2>
@@ -67,46 +63,3 @@
 		</div>
 	</div>
 </div>
-<div id="contact" class="py-10 flex justify-center">
-	<form method="POST" class="w-full max-w-lg" name="contact" netlify netlify-honeypot="bot-field">
-		<h1 class="text-6xl mb-5">Contact me</h1>
-		<div class="hidden">
-			<label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
-		</div>
-		<div class="flex flex-wrap -mx-3 mb-6">
-			<div class="w-full px-3">
-				<label class="block tracking-wide text-xs font-bold mb-2" for="email"> E-mail </label>
-				<input
-					name="email"
-					class="appearance-none block w-full bg-gray-200 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-					id="email"
-					type="email"
-					required
-				/>
-			</div>
-		</div>
-		<div class="flex flex-wrap -mx-3 mb-6">
-			<div class="w-full px-3">
-				<label class="block tracking-wide text-xs font-bold mb-2" for="message"> Message </label>
-				<textarea
-					name="message"
-					class="no-resize appearance-none block w-full bg-gray-200 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none"
-					id="message"
-					required
-				/>
-			</div>
-		</div>
-		<div class="md:flex md:items-center">
-			<div class="md:w-1/3">
-				<button class="bg-green-700 text-white py-2 px-4" type="submit"> Send </button>
-			</div>
-			<div class="md:w-2/3" />
-		</div>
-	</form>
-</div>
-
-<style>
-	.h-screen-5\/6 {
-		height: 83vh;
-	}
-</style>

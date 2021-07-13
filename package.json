@@ -12,6 +12,7 @@
 		"@sveltejs/adapter-netlify": "^1.0.0-next.20",
 		"@sveltejs/kit": "next",
 		"autoprefixer": "^10.2.6",
+		"carbon-icons-svelte": "^10.35.0",
 		"cssnano": "^5.0.6",
 		"eslint": "^7.22.0",
 		"eslint-config-prettier": "^8.1.0",
