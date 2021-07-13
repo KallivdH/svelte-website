@@ -1,3 +1,7 @@
+<script context="module">
+	export const prerender = true;
+</script>
+
 <div id="hero" class="h-screen-5/6 flex items-center font-mono py-10">
 	<div class="grid md:grid-cols-2 grid-cols-1 gap-1">
 		<div id="hero-content">
