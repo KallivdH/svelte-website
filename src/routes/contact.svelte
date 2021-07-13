@@ -13,9 +13,9 @@
 	<div class="flex-shrink-0">
 		<img
 			class="object-contain"
-			width="287.28px"
+			width="287px"
 			height="384px"
-			src="/duimpje.jpg"
+			src="/duimpje.jpg?nf_resize=fit&w=287&h=384"
 			alt="Terchelling funny"
 		/>
 	</div>
