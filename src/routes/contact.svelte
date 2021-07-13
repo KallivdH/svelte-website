@@ -15,7 +15,7 @@
 			class="object-contain"
 			width="287.28px"
 			height="384px"
-			src="duimpje.jpg"
+			src="/duimpje.jpg"
 			alt="Terchelling funny"
 		/>
 	</div>
