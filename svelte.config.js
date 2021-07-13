@@ -9,7 +9,8 @@ const config = {
 		prerender: {
 			crawl: true,
 			enabled: true,
-			force: true
+			force: true,
+			pages: ['*']
 		}
 	},
 

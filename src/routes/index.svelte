@@ -68,37 +68,10 @@
 	</div>
 </div>
 <div id="contact" class="py-10 flex justify-center">
-	<form
-		method="POST"
-		class="w-full max-w-lg"
-		name="contact"
-		data-netlify="true"
-		data-netlify-recaptcha="true"
-	>
+	<form method="POST" class="w-full max-w-lg" name="contact" netlify netlify-honeypot="bot-field">
 		<h1 class="text-6xl mb-5">Contact me</h1>
-		<div class="flex flex-wrap -mx-3 mb-6">
-			<div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-				<label name="first-name" class="text-xs font-bold mb-2" for="first-name">
-					First Name
-				</label>
-				<input
-					class="appearance-none block w-full bg-gray-200 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
-					id="first-name"
-					type="text"
-					required
-				/>
-			</div>
-			<div class="w-full md:w-1/2 px-3">
-				<label name="last-name" class="block tracking-wide text-xs font-bold mb-2" for="last-name">
-					Last Name
-				</label>
-				<input
-					class="appearance-none block w-full bg-gray-200 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-					id="last-name"
-					type="text"
-					required
-				/>
-			</div>
+		<div class="hidden">
+			<label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
 		</div>
 		<div class="flex flex-wrap -mx-3 mb-6">
 			<div class="w-full px-3">
@@ -122,9 +95,6 @@
 					required
 				/>
 			</div>
-		</div>
-		<div class="flex flex-wrap -mx-3 mb-6">
-			<div data-netlify-recaptcha="true" />
 		</div>
 		<div class="md:flex md:items-center">
 			<div class="md:w-1/3">
