@@ -4,9 +4,9 @@
 			<h2 class="text-4xl mb-2">Welcome, I am</h2>
 			<h1 class="text-6xl mb-5">Kalli van den Heuvel</h1>
 			<p class="mb-5">
-				I work as a programmer at Directlease in Henglo. Furthermore I study HBO-ICT at Saxion
-				enschede. You can find interesting stuff about programming, climbing and music on this
-				website. Soooo don't leave yet.
+				I work as a programmer at Directlease in Henglo. Furthermore, I study HBO-ICT at Saxion
+				Enschede.😄 You can find interesting stuff about programming, climbing and music on this
+				website.😯
 			</p>
 			<a class="bg-green-700 px-4 py-2 text-white" href="/#projects">Projects</a>
 		</div>
@@ -38,9 +38,9 @@
 			<h2 class="text-4xl mb-2">This website</h2>
 			<p class="mb-5 text-xs sm:text-base">
 				I have chosen to make this website with svelte. Svelte is a frontend framework that doesn't
-				use a Virtual DOM. There for its pretty fast and I like the coding workflow a lot. Further I
-				use tailwindCSS, this is a utility based css libary. The hosting is done on netlify where
-				you can host static websites for free.
+				use a Virtual DOM. There for, it's pretty fast, and I like the coding workflow a lot.
+				Further, I use a utility-based CSS library called Tailwind CSS. The hosting is done on
+				Netlify, where you can host static websites for free.
 			</p>
 			<a
 				class="bg-gray-100 px-4 py-2 text-blue-700"
@@ -54,8 +54,8 @@
 		<div class="p-6 sm:p-10">
 			<h2 class="text-4xl mb-2">Spring boot powered website</h2>
 			<p class="mb-5 text-xs sm:text-base">
-				This is a school assignment I had to do. The front end is vanilla javascript and every api
-				call is done with fetch. Furthermore is the backend made with spring boot.
+				This is a school assignment I had to do. The front end is vanilla JavaScript and every API
+				call is done with fetch. Furthermore, is the backend made with spring boot.
 			</p>
 			<a
 				class="bg-gray-100 px-4 py-2 text-red-700"
