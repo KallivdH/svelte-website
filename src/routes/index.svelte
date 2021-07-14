@@ -59,7 +59,7 @@
 			</p>
 			<a
 				class="bg-gray-100 px-4 py-2 text-red-700"
-				href="https://github.com/KallivdH/svelte-website">Github</a
+				href="https://github.com/KallivdH/CollectionOfMusic">Github</a
 			>
 		</div>
 		<div class="p-6 sm:p-10 flex-shrink-0">

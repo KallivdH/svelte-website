@@ -64,19 +64,19 @@
 					aria-label="Github"
 				/></a
 			>
-			<a class="w-1/6 relative" href="https://github.com/KallivdH">
+			<a class="w-1/6 relative" href="https://www.youtube.com/c/Kallivdh">
 				<LogoYoutube32
 					class="absolute top-1/2 right-0 -translate-x-1/2 -translate-y-1/2"
 					aria-label="Youtube"
 				/></a
 			>
-			<a class="w-1/6 relative" href="https://github.com/KallivdH">
+			<a class="w-1/6 relative" href="https://www.linkedin.com/in/kalli-van-den-heuvel-114526140/">
 				<LogoLinkedin32
 					class="absolute top-1/2 right-0 -translate-x-1/2 -translate-y-1/2"
 					aria-label="LinkedIn"
 				/></a
 			>
-			<a class="w-1/6 relative" href="https://github.com/KallivdH">
+			<a class="w-1/6 relative" href="https://www.instagram.com/kallivdh/">
 				<LogoInstagram32
 					class="absolute top-1/2 right-0 -translate-x-1/2 -translate-y-1/2"
 					aria-label="Instagram"
