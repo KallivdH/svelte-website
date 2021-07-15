@@ -1,0 +1,19 @@
+backend:
+  name: git-gateway
+  branch: main
+  media_folder: "static" # Media files will be stored in the repo under static
+  public_folder: "/" # The src attribute for uploaded media will begin with /
+collections:
+- name: "vinyl" # Used in routes, e.g., /admin/collections/blog
+  label: "Vinyl Collection" # Used in the UI
+  folder: "_posts/vinyl" # The path to the folder where the documents are stored
+  create: true # Allow users to create new documents in this collection
+  slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+  fields: # The fields for each document, usually in front matter
+    - {label: "Layout", name: "layout", widget: "hidden", default: "vinyl"}
+    - {label: "Title", name: "title", widget: "string"}
+    - {label: "Artist", name: "aritist", widget: "string"}
+    - {label: "Publish Date", name: "date", widget: "datetime"}
+    - {label: "Cover Image", name: "cover", widget: "image"}
+    - {label: "Rating (scale of 1-10)", name: "rating", widget: "number"}
+    - {label: "Body", name: "body", widget: "markdown"}
