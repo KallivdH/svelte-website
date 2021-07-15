@@ -8,8 +8,7 @@ const config = {
 		dashes: 'oldschool'
 	},
 
-	remarkPlugins: [],
-	rehypePlugins: []
+	remarkPlugins: []
 };
 
 export default config;

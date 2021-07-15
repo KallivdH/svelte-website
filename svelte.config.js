@@ -1,8 +1,12 @@
+import { mdsvex } from "mdsvex";
+import mdsvexConfig from "./mdsvex.config.js";
 import preprocess from 'svelte-preprocess';
 import netlify from '@sveltejs/adapter-netlify';
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-	kit: {
+    "extensions": [".svelte", ...mdsvexConfig.extensions],
+
+    kit: {
 		// hydrate the <div id="svelte"> element in src/app.html
 		target: '#svelte',
 		adapter: netlify(),
@@ -14,11 +18,9 @@ const config = {
 		}
 	},
 
-	preprocess: [
-		preprocess({
-			postcss: true
-		})
-	]
+    preprocess: [preprocess({
+        postcss: true
+    }), mdsvex(mdsvexConfig)]
 };
 
 export default config;
