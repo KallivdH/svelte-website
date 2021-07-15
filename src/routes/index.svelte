@@ -1,4 +1,4 @@
-<div id="hero" class="min-h-screen-5/6 flex items-center font-mono py-10">
+<div id="hero" class="mt-28 mb-32 flex items-center font-mono py-10">
 	<div class="grid md:grid-cols-2 grid-cols-1 gap-1">
 		<div id="hero-content">
 			<h2 class="text-4xl mb-2">Welcome, I am</h2>

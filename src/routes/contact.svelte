@@ -6,10 +6,7 @@
 	import LogoInstagram32 from 'carbon-icons-svelte/lib/LogoInstagram32';
 </script>
 
-<div
-	id="contact"
-	class="min-h-screen-5/6 my-10 flex justify-around items-center flex-wrap md:flex-nowrap"
->
+<div id="contact" class="mt-28 my-10 flex justify-around items-center flex-wrap md:flex-nowrap">
 	<div class="flex-shrink-0">
 		<img
 			class="object-contain"
