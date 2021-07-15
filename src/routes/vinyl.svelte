@@ -25,9 +25,9 @@
 	export let vinylCollection;
 </script>
 
-<h1 class="text-6xl mb-5">Vinyl Collection</h1>
+<h1 class="md:text-left text-center text-6xl mb-5">Vinyl Collection</h1>
 
-<div class="min-h-full my-10 flex justify-start flex-wrap gap-10">
+<div class="min-h-full my-10 flex justify-center md:justify-start flex-wrap gap-10">
 	{#each vinylCollection as { path, metadata }}
 		<a class="bg-gray-200 drop-shadow-lg" href={path}>
 			<img

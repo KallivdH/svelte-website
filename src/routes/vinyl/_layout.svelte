@@ -15,11 +15,11 @@
 	/>
 </svelte:head>
 
-<div class="mt-48 flex justify-center gap-10">
-	<img class="float-left" src={cover} alt="{title} - {artist}" />
-	<div class="float-right">
-		<h1 class="text-6xl mb-5">{title}</h1>
-		<h2 class="text-4xl mb-28">{artist}</h2>
-		<div class="text-8xl">{rating} / 10</div>
+<div class="mt-10 md:mt-48 flex flex-wrap md:flex-nowrap sm:justify-center gap-10">
+	<img class="float-left w-96 h-96 object-contain" src={cover} alt="{title} - {artist}" />
+	<div>
+		<h1 class="text-3xl mb-2 sm:text-6xl sm:mb-5">{title}</h1>
+		<h2 class="text-2xl mb-5 sm:text-4xl sm:mb-10">{artist}</h2>
+		<div class="text-4xl sm:text-8xl">{rating} / 10</div>
 	</div>
 </div>
