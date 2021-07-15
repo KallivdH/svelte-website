@@ -81,7 +81,7 @@
 			<a
 				on:click={() => (mobileMenuOpen = false)}
 				class="bg-green-700 px-4 py-2 rounded-3xl mr-5"
-				href="/#projects">Projects</a
+				href="/vinyl">Vinyl Collection</a
 			>
 		</div>
 	</nav>
