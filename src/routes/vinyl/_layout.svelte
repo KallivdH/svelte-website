@@ -20,6 +20,8 @@
 	<div>
 		<h1 class="text-3xl mb-2 sm:text-6xl sm:mb-5">{title}</h1>
 		<h2 class="text-2xl mb-5 sm:text-4xl sm:mb-10">{artist}</h2>
-		<div class="text-4xl sm:text-8xl">{rating} / 10</div>
+		{#if rating > 0}
+			<div class="text-4xl sm:text-8xl">{rating} / 10</div>
+		{/if}
 	</div>
 </div>
