@@ -15,7 +15,7 @@
 	/>
 </svelte:head>
 
-<div class="mt-10 md:mt-48 flex flex-wrap md:flex-nowrap sm:justify-center gap-10">
+<div class="md:mt-48 flex flex-wrap md:flex-nowrap sm:justify-center gap-10">
 	<img class="float-left w-96 h-96 object-contain" src={cover} alt="{title} - {artist}" />
 	<div>
 		<h1 class="text-3xl mb-2 sm:text-6xl sm:mb-5">{title}</h1>
