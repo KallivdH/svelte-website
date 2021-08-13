@@ -33,8 +33,8 @@
 			<a class="bg-gray-200 drop-shadow-lg m-5" href={path}>
 				<img
 					class="object-scale-down"
-					width="320"
-					height="320"
+					height="500"
+					width="500"
 					src={metadata.thumbnail}
 					alt={metadata.title}
 				/>
