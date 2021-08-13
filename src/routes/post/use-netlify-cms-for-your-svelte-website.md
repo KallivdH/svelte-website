@@ -37,6 +37,53 @@ const config = {
 export default config;
 ```
 
-Here I added the post layout with its path. In the` _layout.svelte` file, you can use the metadata of the markdown files. For example, by calling them `export let title;` and using it in the file `<h1>{title}</h1>`. More info about mdsvex can be found [here](https://mdsvex.pngwn.io/docs).
+Here I added the post layout with its path. In the`_layout.svelte` file, you can use the metadata of the markdown files. For example, by calling them `export let title;` and using it in the file `<h1>{title}</h1>`. More info about mdsvex can be found [here](https://mdsvex.pngwn.io/docs).
 
-Finally
+Finally, the blog post holder page. This is the code for importing the markdown files into the svelte file.
+
+```svelte
+<script context="module">
+	const markdownFiles = import.meta.glob('./post/*.md');
+
+	let markdownFilesArray = [];
+	for (let path in markdownFiles) {
+		markdownFilesArray.push(
+			markdownFiles[path]().then(({ metadata }) => {
+				path = path.substring(0, path.length - 3);
+				return { path, metadata };
+			})
+		);
+	}
+
+	export const load = async () => {
+		const posts = await Promise.all(markdownFilesArray);
+		return {
+			props: {
+				posts
+			}
+		};
+	};
+</script>
+
+<script>
+	export let posts;
+</script>
+```
+
+Credits to WebJeda for making [this](https://youtu.be/yKPC316i_gI) tutorial about importing markdown data in to a svelte file. This is the object you are getting from this method.
+
+```json
+{
+  "path": "./post/first-blog-post",
+  "metadata": {
+    "layout": "post",
+    "title": "First blog post",
+    "date": "10th-Aug-2021",
+    "thumbnail": "/thumbnail-blogpost1.png"
+  }
+}
+```
+
+I made a little tweak by removing the `.md` file extension before making the object.
+
+Now you should know everything to get started with Sveltekit and Netlify CMS. I hope this was a useful little and if you have questions, please [contact](/contact) me :)
