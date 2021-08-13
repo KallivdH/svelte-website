@@ -17,7 +17,7 @@
 <div>
 	<span class="text-sm italic float-right mb-1 pr-6">Date: {date}</span>
 	<img class="rounded-3xl mb-10 min-w-full object-contain" src={thumbnail} alt={title} />
-	<div class="prose mx-auto">
+	<div class="prose mx-auto prose-blue mb-20">
 		<h1>{title}</h1>
 		<slot />
 	</div>
